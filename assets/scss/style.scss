@@ -1,0 +1,41 @@
+body {
+  margin:0 auto;
+  width:100%;
+  background-color: gray;
+  & figure {
+    padding-top:3rem;
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+    & #author {
+      font-size: 2rem;
+      display: inline;
+    }
+    & #authorQuote {
+      display: inline;
+      font-size: 1.5rem;
+    }
+    & #containerImage {
+      display: block;
+      margin-left: auto;
+      margin-top: auto;
+      padding-top: 0.6rem;
+      padding-bottom: 0.6rem;
+      & img {
+        height:25rem;
+      }
+    }
+    #quote {
+      font-style: italic;
+      font-size: 2.5rem;
+      padding-bottom: 0.6rem;
+    }
+
+  }
+}
+
+/*<figure>
+<blockquote id="quote">
+</blockquote>
+<figcaption id="permalink"></figcaption>
+</figure>*/
