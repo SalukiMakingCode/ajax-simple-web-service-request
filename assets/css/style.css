@@ -26,6 +26,7 @@ body figure #containerImage {
 }
 body figure #containerImage img {
   height: 25rem;
+  border-radius: 30%;
 }
 body figure #quote {
   font-style: italic;
